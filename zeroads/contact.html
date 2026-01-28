@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact ZeroAds - Get in touch with us for support, feedback, or questions.">
+    <title>Contact Us - ZeroAds</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <span class="logo-icon">🛡️</span>
+                    <span class="logo-text">ZeroAds</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p class="subtitle">We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Have a question, suggestion, or issue? We're here to help!</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">✉️</div>
+                            <h3>Email Support</h3>
+                            <p>For general inquiries and support</p>
+                            <a href="mailto:support@zeroads.com">support@zeroads.com</a>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">🐛</div>
+                            <h3>Report a Bug</h3>
+                            <p>Found an issue with the extension?</p>
+                            <a href="mailto:bugs@zeroads.com">bugs@zeroads.com</a>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">💡</div>
+                            <h3>Feature Requests</h3>
+                            <p>Have an idea for improvement?</p>
+                            <a href="mailto:feedback@zeroads.com">feedback@zeroads.com</a>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">🔒</div>
+                            <h3>Privacy Concerns</h3>
+                            <p>Questions about data and privacy</p>
+                            <a href="mailto:privacy@zeroads.com">privacy@zeroads.com</a>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">💼</div>
+                            <h3>Business Inquiries</h3>
+                            <p>Partnership and business matters</p>
+                            <a href="mailto:business@zeroads.com">business@zeroads.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="response-time">
+                        <p><strong>Response Time:</strong> We aim to respond within 24-48 hours on business days.</p>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="support">Technical Support</option>
+                                <option value="bug">Bug Report</option>
+                                <option value="feature">Feature Request</option>
+                                <option value="privacy">Privacy Question</option>
+                                <option value="business">Business Inquiry</option>
+                                <option value="feedback">General Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell us how we can help..."></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="privacy" required>
+                                I agree to the <a href="privacy.html" target="_blank">Privacy Policy</a>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            Send Message
+                        </button>
+                        
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">Quick answers to common questions</p>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How do I install ZeroAds?</h3>
+                    <p>Visit the Chrome Web Store, search for "ZeroAds", and click "Add to Chrome". The extension will install automatically.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Is ZeroAds really free?</h3>
+                    <p>Yes! ZeroAds is completely free with no premium features, subscriptions, or hidden costs. All features are free forever.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Does ZeroAds collect my data?</h3>
+                    <p>No. We don't collect any personal data, browsing history, or any other information. Everything stays on your device.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Why isn't it blocking ads on a specific site?</h3>
+                    <p>Some websites use new ad technologies. Please report the site to us and we'll add it to our blocking rules.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Can I use ZeroAds on mobile?</h3>
+                    <p>Currently ZeroAds works on desktop Chrome. Mobile support is planned for future releases.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How do I disable ZeroAds temporarily?</h3>
+                    <p>Click the ZeroAds icon in your toolbar and toggle it OFF. You can re-enable it anytime with the same toggle.</p>
+                </div>
+            </div>
+            
+            <div class="faq-cta">
+                <p>Still have questions? <a href="#contactForm">Send us a message</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ZeroAds</h3>
+                    <p>Block all ads, instantly. Experience the web without interruptions.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html#features">Features</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="mailto:support@zeroads.com">Email Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 ZeroAds. All rights reserved.</p>
+                <p>Made with ❤️ for a better web</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
